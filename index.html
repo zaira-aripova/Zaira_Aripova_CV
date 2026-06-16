@@ -543,11 +543,16 @@ body {
     <!-- VIDEO -->
     <div class="section">
       <div class="section-label">Présentation</div>
-      <div class="video-placeholder" onclick="alert('Vidéo de présentation à venir — 1 min')">
-        <div class="video-icon">▶</div>
-        <div class="video-label">Vidéo de présentation</div>
-        <div class="video-sub">1 min · à venir</div>
-      </div>
+      <a href="https://youtube.com/shorts/HagFHKZw9rg" target="_blank" style="display:flex;align-items:center;gap:12px;background:var(--cream);border:0.5px solid var(--border);border-radius:8px;padding:1rem 1.25rem;text-decoration:none;transition:background 0.15s;" onmouseover="this.style.background='var(--cream-deep)'" onmouseout="this.style.background='var(--cream)'">
+        <div style="width:48px;height:48px;background:#FF0000;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg viewBox="0 0 24 24" fill="white" width="20" height="20"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <div>
+          <div style="font-size:13px;font-weight:500;color:var(--ink);">Voir ma vidéo de présentation</div>
+          <div style="font-size:11px;color:var(--ink-muted);margin-top:2px;">1 min 15 · s'ouvre sur YouTube</div>
+        </div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16" style="margin-left:auto;color:var(--ink-muted);"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+      </a>
       <a href="https://www.youtube.com/watch?v=m577dfUkqZs" target="_blank" class="dashboard-link" style="margin-top:0.75rem;" aria-label="Voir le workshop complet">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
         Voir mon workshop — Transformer les objections en opportunités de vente éthique
@@ -707,35 +712,16 @@ body {
       </div>
     </div>
 
-    <div class="modal-section-label">Classement équipe — vente directe · particuliers &amp; pros bien-être</div>
-    <div class="rank-grid">
-      <div class="rank-card me">
-        <div class="rank-pos">N°1</div>
-        <div class="rank-name">Zaira</div>
-        <div class="rank-ca">7 280 €</div>
-        <div class="rank-days">52 ventes · 19 j.</div>
-        <div class="bar-t"><div class="bar-f" style="width:100%;background:#639922"></div></div>
+    <div class="modal-section-label">Classement équipe — position personnelle</div>
+    <div style="background:#F8FCF3;border:1.5px solid #639922;border-radius:10px;padding:0.85rem 1rem;display:flex;align-items:center;justify-content:space-between;">
+      <div>
+        <div style="font-size:10px;color:#639922;font-weight:500;margin-bottom:3px;">N°1 vente directe · équipe de 4</div>
+        <div style="font-size:13px;font-weight:500;">Zaira</div>
+        <div style="font-size:11px;color:#888780;margin-top:2px;">52 ventes · 19 jours terrain</div>
       </div>
-      <div class="rank-card">
-        <div class="rank-pos gray">N°2</div>
-        <div class="rank-name">Vendeur A</div>
-        <div class="rank-ca gray">2 724 €</div>
-        <div class="rank-days">19 ventes · 6 j.</div>
-        <div class="bar-t"><div class="bar-f" style="width:37%;background:#B4B2A9"></div></div>
-      </div>
-      <div class="rank-card">
-        <div class="rank-pos gray">N°3</div>
-        <div class="rank-name">Vendeur B</div>
-        <div class="rank-ca gray">1 220 €</div>
-        <div class="rank-days">8 ventes · 1 j.</div>
-        <div class="bar-t"><div class="bar-f" style="width:17%;background:#B4B2A9"></div></div>
-      </div>
-      <div class="rank-card">
-        <div class="rank-pos gray">N°4</div>
-        <div class="rank-name">Vendeur C</div>
-        <div class="rank-ca gray">832 €</div>
-        <div class="rank-days">5 ventes · 3 j.</div>
-        <div class="bar-t"><div class="bar-f" style="width:11%;background:#B4B2A9"></div></div>
+      <div style="text-align:right;">
+        <div style="font-size:22px;font-weight:500;color:#27500A;">7 280 €</div>
+        <div style="font-size:11px;color:#888780;">CA personnel généré</div>
       </div>
     </div>
 
